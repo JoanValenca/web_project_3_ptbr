@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+@import url(../Blocks/body/__body.css);
+@import url(../fontes/fonts.css);
+
+/* ----------------------Header---------------------- */
+@import url(../Blocks/header/__galery.css);
+@import url(../Blocks/header/__logo.css);
+
+/* ----------------------Lead---------------------- */
+@import url(../Blocks/Lead/__criccieth.css);
+@import url(../Blocks/Lead/__subtitle.css);
+@import url(../Blocks/Lead/__title.css);
+/* ----------------------Intro---------------------- */
+
+@import url(../Blocks/Intro/__title.css);
+@import url(../Blocks/Intro/__texto.css);
+@import url(../Blocks/Intro/__quote.css);
+@import url(../Blocks/Intro/__autor.css);
+@import url(../Blocks/Intro/__intro.css);
