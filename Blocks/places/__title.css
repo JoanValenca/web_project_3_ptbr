@@ -1,0 +1,10 @@
+.place__title {
+  width: 460px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4.75rem;
+  grid-area: "place__titulo";
+}

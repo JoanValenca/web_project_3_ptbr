@@ -17,3 +17,18 @@
 @import url(../Blocks/Intro/__quote.css);
 @import url(../Blocks/Intro/__autor.css);
 @import url(../Blocks/Intro/__intro.css);
+
+/* ----------------------photo-grid---------------------- */
+
+@import url(../Blocks/photo-grid/photo-grid__item.css);
+
+/* ----------------------places---------------------- */
+
+@import url(../Blocks/places/__places.css);
+@import url(../Blocks/places/placE.css);
+@import url(../Blocks/places/__title.css);
+@import url(../Blocks/places/__button-comprar.css);
+@import url(../Blocks/places/__autor.css);
+@import url(../Blocks/places/__image.css);
+@import url(../Blocks/places/__textoum.css);
+@import url(../Blocks/places/__textodois.css);

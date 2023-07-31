@@ -1,0 +1,11 @@
+.place {
+  display: grid;
+  grid-template-areas:
+    "place__titulo place__autor"
+    "place__image place__textoum"
+    "place__button-comprar place__textodois";
+  gap: 48px 40px;
+  margin-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content 1fr;
+}
