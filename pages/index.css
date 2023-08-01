@@ -28,7 +28,9 @@
 @import url(../Blocks/places/placE.css);
 @import url(../Blocks/places/__title.css);
 @import url(../Blocks/places/__button-comprar.css);
-@import url(../Blocks/places/__autor.css);
 @import url(../Blocks/places/__image.css);
-@import url(../Blocks/places/__textoum.css);
-@import url(../Blocks/places/__textodois.css);
+@import url(../Blocks/places/place__autor/__autor.css);
+@import url(../Blocks/places/place__autor/__artist.css);
+@import url(../Blocks/places/place__autor/__url-heading.css);
+@import url(../Blocks/places/place__texto/__texto-paragraph.css);
+@import url(../Blocks/places/place__texto/__texto.css);
