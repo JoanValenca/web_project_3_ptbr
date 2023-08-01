@@ -1,0 +1,34 @@
+.cover {
+  margin-top: 12px;
+  margin-bottom: 92px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 92.5%;
+  position: relative;
+  min-height: 740px;
+  background: url(../../../images/__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 254px;
+    margin-bottom: 64px;
+    margin-top: 14px;
+  }
+}

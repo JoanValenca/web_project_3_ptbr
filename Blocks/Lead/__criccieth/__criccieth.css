@@ -1,0 +1,21 @@
+.lead__criccieth {
+  width: 100%;
+  max-width: 984px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 860px) {
+  .lead__criccieth {
+    margin-bottom: 88px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .lead__criccieth {
+    margin-bottom: 64px;
+  }
+}

@@ -1,0 +1,20 @@
+.cover__buy-button {
+  background-color: #0278fe;
+  border-radius: 4px;
+  border-style: none;
+  height: fit-content;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
+  padding: 13px 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.cover__buy-button:hover {
+  transition: ease-in 0.4s;
+  background-color: #0063d2;
+  cursor: pointer;
+}

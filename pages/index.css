@@ -1,22 +1,22 @@
 @import url(../vendor/normalize.css);
-@import url(../Blocks/body/__body.css);
+@import url(../Blocks/body/__body/__body.css);
 @import url(../fontes/fonts.css);
 
 /* ----------------------Header---------------------- */
-@import url(../Blocks/header/__galery.css);
-@import url(../Blocks/header/__logo.css);
+@import url(../Blocks/header/__logo/header.css);
+@import url(../Blocks/header/__logo/header__logo.css);
 
 /* ----------------------Lead---------------------- */
-@import url(../Blocks/Lead/__criccieth.css);
-@import url(../Blocks/Lead/__subtitle.css);
-@import url(../Blocks/Lead/__title.css);
+@import url(../Blocks/Lead/__title/__title.css);
+@import url(../Blocks/Lead/__subtitle/__subtitle.css);
+@import url(../Blocks/Lead/__criccieth/__criccieth.css);
 /* ----------------------Intro---------------------- */
 
-@import url(../Blocks/Intro/__title.css);
-@import url(../Blocks/Intro/__texto.css);
-@import url(../Blocks/Intro/__quote.css);
-@import url(../Blocks/Intro/__autor.css);
+@import url(../Blocks/Intro/__autor/__autor.css);
 @import url(../Blocks/Intro/__intro.css);
+@import url(../Blocks/Intro/__quote/__quote.css);
+@import url(../Blocks/Intro/__texto/__texto.css);
+@import url(../Blocks/Intro/__title/__title.css);
 
 /* ----------------------photo-grid---------------------- */
 
@@ -25,12 +25,23 @@
 /* ----------------------places---------------------- */
 
 @import url(../Blocks/places/__places.css);
-@import url(../Blocks/places/placE.css);
-@import url(../Blocks/places/__title.css);
-@import url(../Blocks/places/__button-comprar.css);
-@import url(../Blocks/places/__image.css);
-@import url(../Blocks/places/place__autor/__autor.css);
-@import url(../Blocks/places/place__autor/__artist.css);
-@import url(../Blocks/places/place__autor/__url-heading.css);
-@import url(../Blocks/places/place__texto/__texto-paragraph.css);
-@import url(../Blocks/places/place__texto/__texto.css);
+@import url(../Blocks/places/__place/placE.css);
+@import url(../Blocks/places/__title/__title.css);
+@import url(../Blocks/places/__button/__button-comprar.css);
+@import url(../Blocks/places/__image/__image.css);
+@import url(../Blocks/places/__autor/__artist.css);
+@import url(../Blocks/places/__autor/__autor.css);
+@import url(../Blocks/places/__autor/__url-heading.css);
+@import url(../Blocks/places/__texto/__texto-paragraph.css);
+@import url(../Blocks/places/__texto/__texto.css);
+
+/* ----------------------cover---------------------- */
+
+@import url(../Blocks/cover/cover.css);
+@import url(../Blocks/cover/__title/__title.css);
+@import url(../Blocks/cover/__overlay/__overlay.css);
+@import url(../Blocks/cover/__button/__button.css);
+@import url(../Blocks/cover/__adress/__adress.css);
+
+/* ----------------------footer---------------------- */
+@import url(../Blocks/footer/__copyright/footer__copyright.css);

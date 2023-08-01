@@ -1,0 +1,19 @@
+.cover__adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #ffffff;
+  max-width: 280px;
+  margin: 32px 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__adress {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0;
+  }
+}

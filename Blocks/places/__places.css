@@ -3,3 +3,17 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 860px) {
+  .places {
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .places {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
