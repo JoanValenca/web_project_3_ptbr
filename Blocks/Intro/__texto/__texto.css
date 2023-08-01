@@ -1,6 +1,6 @@
 .intro__texto {
-  width: 720px;
-  height: 182px;
+  max-width: 720px;
+  width: 100%;
   color: #fff;
   font-size: 1rem;
   font-style: normal;
@@ -11,25 +11,5 @@
 @media screen and (max-width: 860px) {
   .intro__texto {
     display: flex;
-    width: 707px;
-  }
-}
-
-@media screen and (max-width: 585px) {
-  .intro__texto {
-    max-width: 585px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__texto {
-    width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}
-@media screen and (max-width: 321px) {
-  .intro__texto {
-    width: 288px;
   }
 }

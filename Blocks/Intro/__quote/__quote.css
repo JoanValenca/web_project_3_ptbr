@@ -1,23 +1,17 @@
 .intro__quote {
+  max-width: 736px;
+  width: 100%;
   color: #fff;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.125rem;
-  width: 736px;
   margin: 0;
   /* margin-bottom: 12px; */
 }
 
-@media screen and (max-width: 860px) {
-  .intro__quote {
-    width: 707px;
-  }
-}
-
 @media screen and (max-width: 585px) {
   .intro__quote {
-    width: 82%;
     color: #fff;
     font-size: 24px;
     font-style: normal;
