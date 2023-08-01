@@ -11,8 +11,18 @@
 
 @media screen and (max-width: 860px) {
   .intro__quote {
-    margin-left: 24px;
-    margin-right: 24px;
+    width: 707px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .intro__quote {
+    width: 82%;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
   }
 }
 

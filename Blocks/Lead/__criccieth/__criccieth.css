@@ -19,3 +19,9 @@
     margin-bottom: 64px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__criccieth {
+    padding-bottom: 0;
+  }
+}
